@@ -8,8 +8,7 @@ class Game:
     def choose_sentence(self):
         with open('sentences.txt', 'r', encoding='utf-8') as file:
             sentences = file.read().split('\n')
-        sentence = sentences[random.randrange(len(sentences))-1]
-        return sentence
+        return sentences[random.randrange(len(sentences))-1]
 
     def calculate_score(self, start_time, end_time, sentence, attempt):
         character_count = len(attempt)
@@ -29,8 +28,7 @@ class Game:
     def calculate_time(self, start_time, end_time):
         time_seconds = end_time - start_time
         minutes, seconds = divmod(time_seconds, 60)
-        total_time = [int(minutes), int(seconds)]
-        return total_time
+        return [int(minutes), int(seconds)]
 
     def run(self):
         sentence = self.choose_sentence()
