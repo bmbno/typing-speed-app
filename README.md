@@ -1,10 +1,12 @@
 # typing-speed-app
 
-Simple overview of use/purpose.
+A simple typing speed application to improve speed and accuracy.
 
 ## Description
 
-An in-depth paragraph about your project and overview of use.
+This is a simple typing speed application created with Python and tkinter. A random sentence will be displayed
+and the timer will start when a key is pressed. To submit your attempt, press Enter and a pop-up window will
+be displayed with the original sentence, your attempt, and the results.
 
 ## Getting Started
 
@@ -16,15 +18,16 @@ An in-depth paragraph about your project and overview of use.
 
 ### Installing
 
-* How/where to download your program
-* Any modifications needed to be made to files/folders
+* Download the zip file and unpack into a directory of your choice.
 
 ### Executing program
 
-* How to run the program
-* Step-by-step bullets
+* Download and unpack program files
+* Navigate to the directory of the application
+* Run the main.py file in console
 ```
-code blocks for commands
+cd ..../typing-speed-app
+python main.py
 ```
 
 ## Authors
