@@ -1,10 +1,9 @@
-from Game import Game
 from Gui import Gui
 import tkinter as tk
 
 
 def main():
-    game = Game()
+    """Wrapper function"""
     root = tk.Tk()
     app = Gui(root)
     root.mainloop()
