@@ -26,7 +26,7 @@ be displayed with the original sentence, your attempt, and the results.
 * Navigate to the directory of the application
 * Run the main.py file in console
 ```
-cd ..../typing-speed-app
+cd .../typing-speed-app
 python main.py
 ```
 
