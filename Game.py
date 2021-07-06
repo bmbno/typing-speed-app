@@ -32,12 +32,12 @@ class Game:
 
     def run(self):
         sentence = self.choose_sentence()
-        START = 0
-        print(sentence)
-        while not START:
-            start_key = input("Hit Enter to start: ")
-            if start_key == "":
-                START = 1
+        # START = 0
+        # print(sentence)
+        # while not START:
+        #     start_key = input("Hit Enter to start: ")
+        #     if start_key == "":
+        #         START = 1
         start_time = time.time()
         attempt = input("type sentence:")
         end_time = time.time()
