@@ -34,8 +34,8 @@ python main.py
 
 Contributors names and contact info
 
-ex. Gabe Ng  
-ex. [@bmbno]
+Gabe Ng  
+[@bmbno]
 
 ## Version History
 
