@@ -1,4 +1,4 @@
-# typing-speed-app
+# Typing Speed
 
 A simple typing speed application to improve speed and accuracy.
 
